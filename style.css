@@ -103,3 +103,36 @@ nav button {
   outline: 0;
   cursor: pointer;
 }
+
+/* features   */
+
+.features {
+  padding: 50px 12%;
+  font-size: 22px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.text-col,
+.img-col {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+
+.img-col img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.text-col h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
